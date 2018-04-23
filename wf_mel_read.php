@@ -70,8 +70,8 @@ include 'src/header.php'; // html <head> section
 		
     </div> <!-- end div: class="container" -->
 	
-	<br></br><br></br><br></br>
+	<!--<br></br><br></br><br></br>
 	Posted by: Christine Torres <br></br>
-	Contact information: cmtorre1@svsu.edu
+	Contact information: cmtorre1@svsu.edu-->
 </body>
 </html>

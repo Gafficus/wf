@@ -161,7 +161,7 @@ if ( !empty($_POST)) { // if $_POST filled then process the form
 		  </div><!-- end div: class="span10 offset1" -->
 		
     </div> <!-- end div: class="container" -->
-    <p>fcduvend</p>
+    <!--<p>fcduvend</p>-->
 
 <script>
 

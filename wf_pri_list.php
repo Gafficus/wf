@@ -56,7 +56,7 @@ include 'src/header.php'; // html <head> section
 					?>
 				</tbody>
 			</table>
-			<br /><p>Cody Frost, clfrost@svsu.edu</p>
+			<!--<br /><p>Cody Frost, clfrost@svsu.edu</p>-->
     	</div>
     </div> <!-- /container -->
 	

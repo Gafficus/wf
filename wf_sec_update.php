@@ -79,7 +79,7 @@ if ( !empty($_POST)) { // if $_POST filled then process the form
 
         <!-- FIRST NAME -->
 				<div class="control-group <?php echo !empty($wNameError)?'error':'';?>">
-					<label class="control-label">First Name</label>
+					<label class="control-label">Weapon Name</label>
 					<div class="controls">
 						<input name="name" type="text"  placeholder="Weapon Name" value="<?php echo !empty($wName)?$wName:'';?>">
 						<?php if (!empty($wNameError)): ?>
@@ -90,7 +90,7 @@ if ( !empty($_POST)) { // if $_POST filled then process the form
 				
         <!-- CHARACTER NAME -->
 				<div class="control-group <?php echo !empty($wTypeError)?'error':'';?>">
-					<label class="control-label">Character Name</label>
+					<label class="control-label">Weapon Type</label>
 					<div class="controls">
 						<input name="type" type="text"  placeholder="Type" value="<?php echo !empty($wType)?$wType:'';?>">
 						<?php if (!empty($wTypeError)): ?>
@@ -101,7 +101,7 @@ if ( !empty($_POST)) { // if $_POST filled then process the form
 				
         <!-- EMAIL -->
 				<div class="control-group <?php echo !empty($wDamageError)?'error':'';?>">
-					<label class="control-label">Email</label>
+					<label class="control-label">Damage</label>
 					<div class="controls">
 						<input name="damage" type="text" placeholder="Damage" value="<?php echo !empty($wDamage)?$wDamage:'';?>">
 						<?php if (!empty($wDamageError)): ?>
