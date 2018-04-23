@@ -1,0 +1,36 @@
+SELECT wf_loadouts.loadout_name, wf_frames.name as 'Frame', wf_primary.name as 'Primary', wf_secondary.name as 'Secondary'
+from wf_loadouts
+inner join wf_frames ON wf_loadouts.frame_id = wf_frames.id
+inner join wf_primary on wf_loadouts.primary_id = wf_primary.id
+inner join wf_secondary on wf_loadouts.secondary_id = wf_secondary.id
+inner join wf_melee on wf_loadouts.melee_id = wf_melee.id
+where per_id = 1
+
+
+
+
+
+
+
+
+SELECT wf_loadouts.loadout_name, wf_frames.name as 'Frame', wf_primary.name as 'Primary', wf_secondary.name as 'Secondary' from wf_loadouts inner join wf_frames ON wf_loadouts.frame_id = wf_frames.id inner join wf_primary on wf_loadouts.primary_id = wf_primary.id inner join wf_secondary on wf_loadouts.secondary_id = wf_secondary.id inner join wf_melee on wf_loadouts.melee_id = wf_melee.id where per_id = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+$sql = "SELECT wf_loadouts.loadout_name, wf_frames.name as \'Frame\', wf_primary.name as \'Primary\', wf_secondary.name as \'Secondary\'\n"
+    . "from wf_loadouts\n"
+    . "inner join wf_frames ON wf_loadouts.frame_id = wf_frames.id\n"
+    . "inner join wf_primary on wf_loadouts.primary_id = wf_primary.id\n"
+    . "inner join wf_secondary on wf_loadouts.secondary_id = wf_secondary.id\n"
+    . "inner join wf_melee on wf_loadouts.melee_id = wf_melee.id\n"
+    . "where per_id = 1";
